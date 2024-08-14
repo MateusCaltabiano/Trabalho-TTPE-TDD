@@ -37,4 +37,4 @@ jobs:
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
              -Dsonar.projectKey=MateusCaltabiano_Trabalho-TTPE-TDD \
              -Dsonar.projectBaseDir=. \
-             -Dsonar.sources=tppeProject/src
+             -Dsonar.sources=tppeProject/src/tppeProject/tests
