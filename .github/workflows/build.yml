@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - tppeProject/src/tppeProject/tests
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
