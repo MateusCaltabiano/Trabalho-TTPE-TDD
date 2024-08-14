@@ -36,4 +36,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
              -Dsonar.projectKey=MateusCaltabiano_Trabalho-TTPE-TDD \
+             -Dsonar.projectBaseDir=. \
              -Dsonar.sources=tppeProject
